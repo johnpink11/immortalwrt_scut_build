@@ -38,9 +38,17 @@ jobs:
           - build_variant: mt7621-mini
             platform: mt7621
             type: mini
-
+    
           - build_variant: mt7621-full
             platform: mt7621
+            type: full
+    
+          - build_variant: mt7622-mini
+            platform: mt7622
+            type: mini
+    
+          - build_variant: mt7622-full
+            platform: mt7622
             type: full
 
 
